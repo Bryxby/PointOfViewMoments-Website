@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Point of You Moments</title>
+  <link rel="icon" href="public/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="nav__brand" href="index.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+        <span>Point of You Moments</span>
+      </a>
+      <nav class="nav__links" aria-label="Site navigation">
+        <a class="nav__link" data-page="index.html" href="index.html">Home</a>
+        <a class="nav__link" data-page="portfolio.html" href="portfolio.html">Portfolio</a>
+        <a class="nav__link" data-page="packages.html" href="packages.html">Packages</a>
+        <a class="nav__link" data-page="about.html" href="about.html">About</a>
+</nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" style="background-image: linear-gradient(180deg, rgba(28,43,35,0.15) 0%, rgba(28,43,35,0.78) 100%), url('public/photos/The Taylors Wedding/Lean Back.jpg')">
+      <div class="hero__content">
+        <p class="hero__eyebrow">Located in Southern Indiana</p>
+        <h1 class="hero__title">
+          <span class="hero__title-text">Capturing the Point of YOU</span>
+        </h1>
+        <p class="hero__sub">
+          <span class="hero__sub-text">A husband-and-wife photography team making every moment captured come to life</span>
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="packages.html">
+            View packages
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+          </a>
+          <a class="btn btn--ghost" href="portfolio.html">See the work</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Featured collections">
+      <div class="section__marker section__marker--ruled">what we do</div>
+      <div class="gallery-reel">
+        <div class="gallery-reel__slide" id="reel-slide-a"></div>
+        <div class="gallery-reel__slide" id="reel-slide-b"></div>
+        <div class="gallery-reel__overlay"></div>
+        <button class="gallery-reel__nav gallery-reel__nav--prev" id="reel-prev" aria-label="Previous photo">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+        </button>
+        <button class="gallery-reel__nav gallery-reel__nav--next" id="reel-next" aria-label="Next photo">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+        </button>
+        <div class="gallery-reel__label" id="reel-label"></div>
+        <div class="gallery-reel__progress" id="reel-progress"></div>
+      </div>
+    </section>
+
+    <section class="section section--split" aria-label="How we work">
+      <div class="split__text">
+        <div class="section__marker">— how we work —</div>
+        <h2 class="section__heading">Two photographers, one shared eye for the moment</h2>
+        <p class="section__body">
+          Before any camera comes out, we talk through what your day looks like, who matters most
+          in the frame, and how much coverage you need. We'll then look over the area and plan our approach,
+          looking for the best angles and lighting. As a team, we can split up to catch it all. While one focuses on the main events,
+          the other can capture the details and candid moments that make your day unique.
+
+          This level of attention to detail doesn't stop at the large events. Even on our smaller
+          packages, we will bring the same level of care that you would expect from an all day event with two photographers.
+
+          You can be confident that we will give the same high-quality service regardless of the package you choose!
+        </p>
+        <a class="btn btn--primary" href="about.html">
+          Who We Are
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+        </a>
+      </div>
+      <div class="split__image" style="background-image: url('public/photos/Us/Both of Us.jpg')" role="img" aria-label="The Point of You team"></div>
+    </section>
+
+    <section class="section section--cta" aria-label="Contact call to action">
+      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15.08c2.62-1.57 5.24-1.43 7.86.42 2.74 1.94 5.49 2 8.23.19"/></svg>
+      <h2 class="section__heading">Ready to book your session?</h2>
+      <p class="section__body section__body--center">
+        Reach out and tell us about your event — we'll help you find the right package.
+      </p>
+      <div class="hero__actions hero__actions--center">
+        <a class="btn btn--primary" href="mailto:pointofyoumoments@gmail.com">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          pointofyoumoments@gmail.com
+        </a>
+        <a class="btn btn--ghost" href="https://www.facebook.com/profile.php?id=61590583776331" target="_blank" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          Point of You Moments
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+        <span>Point of You Moments</span>
+      </div>
+      <p class="footer__tagline">Capturing the Point of YOU</p>
+      <p class="footer__meta">Located in Southern Indiana &middot; pointofyoumoments@gmail.com</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
